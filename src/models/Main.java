@@ -42,7 +42,7 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("---- Infos do carro ----");
-        System.out.println("Tipo de chassi: " + pecasCarro.getChassi());
+        System.out.println("Número do chassi: " + pecasCarro.getChassi());
         System.out.println("Tipo de motor: " + pecasCarro.getMotor());
         System.out.println("Cor: " + pecasCarro.getCor());
         System.out.println("Litros do tanque de combustível: " + pecasCarro.getCombustivel());
