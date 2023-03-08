@@ -19,8 +19,6 @@ public class Main {
         int ano = scanner.nextInt();
         System.out.print("Quantos litros o tanque do carro suporta? ");
         int combustivel = scanner.nextInt();
-        System.out.print("Quantos pneus o carro tem? ");
-        int quantidadePneus = scanner.nextInt();
         System.out.print("Quantas portas o carro tem? ");
         int quantidadePortas = scanner.nextInt();
         System.out.print("Quantas janelas o carro tem? ");
@@ -28,12 +26,11 @@ public class Main {
         System.out.print("Quantos faróis o carro tem? ");
         int quantidadeFarois = scanner.nextInt();
 
-        Carro pecasCarro = new Carro();
+        Carro pecasCarro = new Carro(quantidadePneus = 5);
         pecasCarro.setChassi(chassi);
         pecasCarro.setMotor(motor);
         pecasCarro.setCor(cor);
         pecasCarro.setCombustivel(combustivel);
-        pecasCarro.setQuantidadePneus(quantidadePneus);
         pecasCarro.setQuantidadePortas(quantidadePortas);
         pecasCarro.setQuantidadeJanelas(quantidadeJanelas);
         pecasCarro.setQuantidadeFarois(quantidadeFarois);
