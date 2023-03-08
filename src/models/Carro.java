@@ -1,7 +1,7 @@
 package models;
 
 public class Carro {
-    private int quantidadePneus;
+    private Integer quantidadePneus;
     private int quantidadePortas;
     private int quantidadeJanelas;
     private int quantidadeFarois;
@@ -11,6 +11,10 @@ public class Carro {
     private String arCondicionado;
     private String motor;
     private int ano;
+    
+    public Carro(Integer quantidadePneus) {
+        this.quantidadePneus = quantidadePneus;
+    }
 
     public int getQuantidadePneus() {
         return quantidadePneus;
